@@ -74,6 +74,12 @@ class ShopSuperMarketActivity : AppCompatActivity() {
                 Toast.makeText(this@ShopSuperMarketActivity, desc, Toast.LENGTH_LONG).show()
             }
             R.id.menuListContextOrder -> {
+                val intent =
+                    Intent(
+                        this@ShopSuperMarketActivity,
+                        ConfirmationSuperMarketActivity::class.java
+                    )
+
                 intent.putExtra("menuName", menu["name"].toString())
 
                 // TODO:前回String型で作ってしまったのでそのまま...

@@ -21,6 +21,6 @@
     <string name="menu_list_options_fruit">果物</string>
     <string name="menu_list_options_other">その他</string>
     <string name="menu_list_context_desc">説明を表示</string>
-    <string name="menu_list_context_order">ご注文</string>
+    <string name="menu_list_context_order">購入Z</string>
     <string name="menu_list_context_header">操作を選んでください。</string>
 </resources>
